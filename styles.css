@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('back.jpg'); 
+    background-size: contain;
+    background-position: top;
+    color: #e92222;
+}
+  a:hover{
+    color: rgb(81, 47, 5);
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 0;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main-section,
+.sub-section {
+    padding: 40px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sub-section .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-section img {
+    margin-left: 10px;
+    padding-left: 10px;
+    display: grid;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px; /* Add border radius for rounded corners */
+}
+
+.sub-section p,
+.sub-section ul {
+    flex: 1;
+    max-width: 400px;
+}
+
+.sub-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sub-section ul li {
+    margin-bottom: 10px;
+}
+
+.sub-section ul li:hover{
+    color: rgb(7, 203, 203);
+}
+
+h2 {
+    color: #fff;
+}
+
+p {
+    color: #ccc;
+}
+.content image{
+    height: 400px;
+    width: 400px;
+
+}
